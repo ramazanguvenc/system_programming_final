@@ -1,0 +1,1420 @@
+Executing with parametres:
+-i	input.txt
+-p	8080
+-o	output.log
+-s	2
+-x	10
+Loading graph...
+1593534340 Graph loaded in 4.59 seconds with 6301 nodes and 20777 edges
+1593534341 Thread #0, waiting for connection
+1593534341 A pool of 2 threads has been created
+1593534341 Thread #1, waiting for connection
+1593534341 Socket successfully created
+1593534341 Socket successfully binded
+1593534341 Server listening
+1593534345 A connection has been delegated to thread id #0, system load 0.0%
+1593534345 A connection has been delegated to thread id #1, system load 0.0%
+1593534345 Searching database for a path from node 1139 to node 4335
+1593534345 Thread #2, waiting for connection
+1593534345 System load 100.0%, pool extended to 3
+1593534345 A connection has been delegated to thread id #2, system load 66.7%
+1593534345 No path in database calculating 1139->4335
+1593534345 Searching database for a path from node 5032 to node 921
+1593534345 Searching database for a path from node 4968 to node 218
+1593534345 No path in database calculating 4968->218
+1593534345 System load 100.0%, pool extended to 4
+1593534345 No path in database calculating 5032->921
+1593534345 path calculated: 1139-> 3010-> 4452-> 2153-> 2847-> 4335
+1593534345 A connection has been delegated to thread id #3, system load 75.0%
+1593534345 path not possible from node 5032 to 921
+1593534345 Thread #1, waiting for connection
+1593534345 path not possible from node 4968 to 218
+1593534345 Thread #0, waiting for connection
+1593534345 A connection has been delegated to thread id #0, system load 0.0%
+1593534345 Thread #3, waiting for connection
+1593534345 A connection has been delegated to thread id #1, system load 25.0%
+1593534345 Searching database for a path from node 5863 to node 520
+1593534345 No path in database calculating 5863->520
+1593534345 Thread #4, waiting for connection
+1593534345 Searching database for a path from node 2469 to node 2793
+1593534345 System load 75.0%, pool extended to 5
+1593534345 Searching database for a path from node 5121 to node 1508
+1593534345 A connection has been delegated to thread id #2, system load 60.0%
+1593534345 Thread #2, waiting for connection
+1593534345 No path in database calculating 5121->1508
+1593534345 path not possible from node 5863 to 520
+1593534345 Thread #0, waiting for connection
+1593534345 path not possible from node 5121 to 1508
+1593534345 Thread #3, waiting for connection
+1593534345 A connection has been delegated to thread id #0, system load 20.0%
+1593534345 A connection has been delegated to thread id #3, system load 60.0%
+1593534345 Searching database for a path from node 211 to node 1842
+1593534345 No path in database calculating 211->1842
+1593534345 A connection has been delegated to thread id #4, system load 80.0%
+1593534345 Searching database for a path from node 813 to node 5215
+1593534345 A connection has been delegated to thread id #5, system load 71.4%
+1593534345 Searching database for a path from node 4194 to node 2633
+1593534346 A connection has been delegated to thread id #6, system load 71.4%
+1593534346 path calculated: 211-> 494-> 1787-> 3700-> 1396-> 1842
+1593534346 Thread #0, waiting for connection
+1593534346 System load 80.0%, pool extended to 7
+1593534346 A connection has been delegated to thread id #0, system load 57.1%
+1593534345 Thread #5, waiting for connection
+1593534345 No path in database calculating 2469->2793
+1593534346 Thread #6, waiting for connection
+1593534346 A connection has been delegated to thread id #7, system load 66.7%
+1593534346 A connection has been delegated to thread id #8, system load 66.7%
+1593534346 Thread #8, waiting for connection
+1593534346 Searching database for a path from node 2681 to node 4559
+1593534346 Thread #7, waiting for connection
+1593534346 Searching database for a path from node 1310 to node 2660
+1593534346 Searching database for a path from node 947 to node 2241
+1593534346 System load 85.7%, pool extended to 9
+1593534346 No path in database calculating 4194->2633
+1593534346 Thread #9, waiting for connection
+1593534346 A connection has been delegated to thread id #9, system load 90.0%
+1593534345 Searching database for a path from node 4512 to node 5253
+1593534346 No path in database calculating 813->5215
+1593534346 No path in database calculating 2681->4559
+1593534346 path calculated: 2681-> 1022-> 1030-> 2948-> 1466-> 3315-> 4559
+1593534346 path calculated: 4194-> 180-> 3-> 703-> 2638-> 1317-> 2362-> 684-> 2633
+1593534346 Thread #4, waiting for connection
+1593534346 System load 100.0%, pool extended to 10
+1593534346 Searching database for a path from node 4402 to node 3204
+1593534346 No thread is avaiable! Waiting for one
+1593534346 A connection has been delegated to thread id #0, system load 80.0%
+1593534346 Searching database for a path from node 3530 to node 4571
+1593534346 path not possible from node 813 to 5215
+1593534346 A connection has been delegated to thread id #4, system load 80.0%
+1593534346 Thread #3, waiting for connection
+1593534346 A connection has been delegated to thread id #3, system load 80.0%
+1593534346 No path in database calculating 4512->5253
+1593534346 Searching database for a path from node 6212 to node 3506
+1593534346 No path in database calculating 947->2241
+1593534346 Searching database for a path from node 3031 to node 5993
+1593534346 No path in database calculating 3031->5993
+1593534346 path not possible from node 2469 to 2793
+1593534346 No path in database calculating 1310->2660
+1593534346 A connection has been delegated to thread id #1, system load 80.0%
+1593534346 path not possible from node 947 to 2241
+1593534346 Thread #6, waiting for connection
+1593534346 A connection has been delegated to thread id #6, system load 70.0%
+1593534346 path not possible from node 4512 to 5253
+1593534346 Searching database for a path from node 248 to node 4012
+1593534346 A connection has been delegated to thread id #2, system load 70.0%
+1593534346 No path in database calculating 3530->4571
+1593534346 path not possible from node 3031 to 5993
+1593534346 Thread #4, waiting for connection
+1593534346 A connection has been delegated to thread id #4, system load 60.0%
+1593534346 Searching database for a path from node 1329 to node 924
+1593534346 path calculated: 1310-> 427-> 700-> 2617-> 2654-> 2660
+1593534346 Thread #7, waiting for connection
+1593534346 A connection has been delegated to thread id #7, system load 60.0%
+1593534346 Searching database for a path from node 309 to node 995
+1593534346 Thread #2, waiting for connection
+1593534346 No path in database calculating 4402->3204
+1593534346 path calculated: 4402-> 5220-> 5716-> 2037-> 238-> 2181-> 3204
+1593534346 A connection has been delegated to thread id #5, system load 70.0%
+1593534346 Thread #5, waiting for connection
+1593534346 Searching database for a path from node 526 to node 1724
+1593534346 No path in database calculating 526->1724
+1593534346 Searching database for a path from node 2814 to node 2642
+1593534346 No path in database calculating 2814->2642
+1593534346 Thread #0, waiting for connection
+1593534346 path not possible from node 2814 to 2642
+1593534346 Thread #3, waiting for connection
+1593534346 A connection has been delegated to thread id #3, system load 80.0%
+1593534346 Searching database for a path from node 719 to node 2603
+1593534346 No path in database calculating 719->2603
+1593534346 path not possible from node 526 to 1724
+1593534346 Thread #5, waiting for connection
+1593534346 Searching database for a path from node 2878 to node 4704
+1593534346 A connection has been delegated to thread id #5, system load 80.0%
+1593534346 Searching database for a path from node 2202 to node 4039
+1593534346 Thread #1, waiting for connection
+1593534346 Searching database for a path from node 12 to node 2728
+1593534346 Searching database for a path from node 5293 to node 4315
+1593534346 path calculated: 719-> 479-> 2453-> 250-> 4180-> 693-> 2603
+1593534346 path not possible from node 3530 to 4571
+1593534346 A connection has been delegated to thread id #2, system load 90.0%
+1593534346 No path in database calculating 6212->3506
+1593534346 path not possible from node 6212 to 3506
+1593534346 A connection has been delegated to thread id #9, system load 80.0%
+1593534346 Thread #8, waiting for connection
+1593534346 Thread #9, waiting for connection
+1593534346 A connection has been delegated to thread id #8, system load 70.0%
+1593534346 Thread #2, waiting for connection
+1593534346 No path in database calculating 1329->924
+1593534346 Searching database for a path from node 1200 to node 5882
+1593534346 Searching database for a path from node 4394 to node 3025
+1593534346 Searching database for a path from node 3170 to node 1619
+1593534346 No path in database calculating 1200->5882
+1593534346 path not possible from node 1329 to 924
+1593534346 Thread #4, waiting for connection
+1593534346 No path in database calculating 248->4012
+1593534346 A connection has been delegated to thread id #4, system load 90.0%
+1593534346 path calculated: 1200-> 1207-> 3078-> 75-> 1337-> 1724-> 3490-> 4781-> 5479-> 5882
+1593534346 Thread #9, waiting for connection
+1593534346 A connection has been delegated to thread id #9, system load 90.0%
+1593534346 Searching database for a path from node 1080 to node 4271
+1593534346 No path in database calculating 1080->4271
+1593534346 No path in database calculating 5293->4315
+1593534346 No thread is avaiable! Waiting for one
+1593534346 path calculated: 1080-> 2868-> 167-> 8-> 1394-> 1317-> 1534-> 303-> 764-> 766-> 2698-> 4271
+1593534346 Searching database for a path from node 4913 to node 4918
+1593534346 No path in database calculating 4394->3025
+1593534346 No path in database calculating 4913->4918
+1593534346 A connection has been delegated to thread id #4, system load 90.0%
+1593534346 Thread #4, waiting for connection
+1593534346 path not possible from node 5293 to 4315
+1593534346 No thread is avaiable! Waiting for one
+1593534346 Thread #3, waiting for connection
+1593534346 A connection has been delegated to thread id #3, system load 90.0%
+1593534346 path not possible from node 4913 to 4918
+1593534346 Thread #9, waiting for connection
+1593534346 A connection has been delegated to thread id #9, system load 80.0%
+1593534346 path calculated: 248-> 326-> 2281-> 2498-> 4107-> 4012
+1593534346 Thread #6, waiting for connection
+1593534346 A connection has been delegated to thread id #6, system load 80.0%
+1593534346 Searching database for a path from node 527 to node 2623
+1593534346 Searching database for a path from node 3086 to node 3016
+1593534346 Searching database for a path from node 2188 to node 4519
+1593534346 path not possible from node 4394 to 3025
+1593534346 No path in database calculating 2202->4039
+1593534346 A connection has been delegated to thread id #8, system load 90.0%
+1593534346 Searching database for a path from node 4207 to node 2517
+1593534346 No path in database calculating 2878->4704
+1593534346 Thread #8, waiting for connection
+1593534346 Searching database for a path from node 6049 to node 4838
+1593534346 No path in database calculating 6049->4838
+1593534346 path not possible from node 2878 to 4704
+1593534346 Thread #0, waiting for connection
+1593534346 path calculated: 6049-> 2991-> 3815-> 4207-> 1685-> 1687-> 3441-> 4838
+1593534346 No path in database calculating 3170->1619
+1593534346 path not possible from node 3170 to 1619
+1593534346 No path in database calculating 527->2623
+1593534346 A connection has been delegated to thread id #0, system load 70.0%
+1593534346 No path in database calculating 2188->4519
+1593534346 Searching database for a path from node 5984 to node 2509
+1593534346 Thread #8, waiting for connection
+1593534346 No path in database calculating 4207->2517
+1593534346 Thread #2, waiting for connection
+1593534346 A connection has been delegated to thread id #2, system load 80.0%
+1593534346 path not possible from node 2188 to 4519
+1593534346 Thread #3, waiting for connection
+1593534346 A connection has been delegated to thread id #3, system load 80.0%
+1593534346 Searching database for a path from node 2086 to node 1462
+1593534346 path not possible from node 527 to 2623
+1593534346 Thread #6, waiting for connection
+1593534346 A connection has been delegated to thread id #6, system load 80.0%
+1593534346 Searching database for a path from node 3155 to node 4282
+1593534346 path not possible from node 2202 to 4039
+1593534346 Thread #5, waiting for connection
+1593534346 A connection has been delegated to thread id #5, system load 80.0%
+1593534346 A connection has been delegated to thread id #8, system load 90.0%
+1593534346 Searching database for a path from node 4605 to node 2992
+1593534346 Searching database for a path from node 3502 to node 225
+1593534346 Searching database for a path from node 6041 to node 288
+1593534346 No path in database calculating 309->995
+1593534346 path calculated: 4207-> 1685-> 521-> 577-> 977-> 2517
+1593534346 Thread #4, waiting for connection
+1593534346 A connection has been delegated to thread id #4, system load 90.0%
+1593534346 Searching database for a path from node 1144 to node 6272
+1593534346 No path in database calculating 1144->6272
+1593534346 path not possible from node 309 to 995
+1593534346 A connection has been delegated to thread id #7, system load 90.0%
+1593534346 No path in database calculating 5984->2509
+1593534346 path not possible from node 5984 to 2509
+1593534346 Thread #0, waiting for connection
+1593534346 Thread #7, waiting for connection
+1593534346 Searching database for a path from node 5075 to node 5042
+1593534346 A connection has been delegated to thread id #0, system load 90.0%
+1593534346 path calculated: 1144-> 17-> 2761-> 2048-> 2852-> 576-> 5238-> 5727-> 5951-> 6079-> 6170-> 6239-> 6258-> 6272
+1593534346 No path in database calculating 3155->4282
+1593534346 Thread #4, waiting for connection
+1593534346 A connection has been delegated to thread id #4, system load 90.0%
+1593534346 Searching database for a path from node 4977 to node 6288
+1593534346 Searching database for a path from node 1763 to node 1168
+1593534346 No path in database calculating 4605->2992
+1593534346 No path in database calculating 3086->3016
+1593534346 path not possible from node 3155 to 4282
+1593534346 A connection has been delegated to thread id #3, system load 90.0%
+1593534346 Thread #3, waiting for connection
+1593534346 path calculated: 3086-> 4508-> 559-> 823-> 1326-> 335-> 4152-> 3016
+1593534346 Thread #9, waiting for connection
+1593534346 Searching database for a path from node 3419 to node 3153
+1593534346 path not possible from node 4605 to 2992
+1593534346 A connection has been delegated to thread id #9, system load 90.0%
+1593534346 No path in database calculating 12->2728
+1593534346 Searching database for a path from node 6094 to node 5431
+1593534346 No path in database calculating 6094->5431
+1593534346 A connection has been delegated to thread id #5, system load 90.0%
+1593534346 Thread #5, waiting for connection
+1593534346 Searching database for a path from node 1289 to node 4431
+1593534346 No path in database calculating 1289->4431
+1593534346 path calculated: 6094-> 1323-> 557-> 248-> 326-> 2279-> 3966-> 4694-> 5431
+1593534346 path not possible from node 12 to 2728
+1593534346 A connection has been delegated to thread id #9, system load 90.0%
+1593534346 No path in database calculating 5075->5042
+1593534347 No path in database calculating 1763->1168
+1593534346 Thread #9, waiting for connection
+1593534347 path calculated: 5075-> 1454-> 3-> 1287-> 3140-> 2593-> 4191-> 370-> 372-> 2318-> 4008-> 5042
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #1, system load 80.0%
+1593534347 path not possible from node 1763 to 1168
+1593534347 A connection has been delegated to thread id #7, system load 80.0%
+1593534347 Thread #7, waiting for connection
+1593534347 No path in database calculating 2086->1462
+1593534347 A connection has been delegated to thread id #4, system load 80.0%
+1593534347 Searching database for a path from node 5931 to node 462
+1593534347 path calculated: 1289-> 3142-> 856-> 1317-> 3163-> 4566-> 4431
+1593534347 No path in database calculating 3502->225
+1593534347 Searching database for a path from node 2895 to node 3257
+1593534347 A connection has been delegated to thread id #5, system load 70.0%
+1593534347 Thread #4, waiting for connection
+1593534347 Thread #1, waiting for connection
+1593534347 No path in database calculating 3419->3153
+1593534347 Searching database for a path from node 55 to node 5015
+1593534347 Thread #5, waiting for connection
+1593534347 Searching database for a path from node 3841 to node 3018
+1593534347 Searching database for a path from node 1527 to node 2600
+1593534347 No path in database calculating 4977->6288
+1593534347 path not possible from node 4977 to 6288
+1593534347 Thread #0, waiting for connection
+1593534347 path not possible from node 3419 to 3153
+1593534347 Thread #3, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 80.0%
+1593534347 A connection has been delegated to thread id #3, system load 80.0%
+1593534347 path not possible from node 2086 to 1462
+1593534347 path not possible from node 3502 to 225
+1593534347 Searching database for a path from node 134 to node 5505
+1593534347 No path in database calculating 5931->462
+1593534347 A connection has been delegated to thread id #2, system load 80.0%
+1593534347 Searching database for a path from node 2040 to node 6114
+1593534347 No path in database calculating 2040->6114
+1593534347 Thread #8, waiting for connection
+1593534347 path calculated: 5931-> 1129-> 248-> 326-> 2281-> 2498-> 4144-> 462
+1593534347 path not possible from node 2040 to 6114
+1593534347 Thread #0, waiting for connection
+1593534347 Thread #7, waiting for connection
+1593534347 Thread #2, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 60.0%
+1593534347 Searching database for a path from node 4898 to node 4232
+1593534347 Searching database for a path from node 4965 to node 3857
+1593534347 A connection has been delegated to thread id #7, system load 80.0%
+1593534347 No path in database calculating 2895->3257
+1593534347 A connection has been delegated to thread id #8, system load 90.0%
+1593534347 Searching database for a path from node 679 to node 2760
+1593534347 No path in database calculating 679->2760
+1593534347 Searching database for a path from node 1022 to node 2849
+1593534347 path not possible from node 2895 to 3257
+1593534347 Thread #9, waiting for connection
+1593534347 A connection has been delegated to thread id #9, system load 90.0%
+1593534347 path calculated: 679-> 680-> 251-> 873-> 2760
+1593534347 Thread #7, waiting for connection
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 Searching database for a path from node 248 to node 4439
+1593534347 Searching database for a path from node 4771 to node 1022
+1593534347 No path in database calculating 55->5015
+1593534347 No path in database calculating 134->5505
+1593534347 path calculated: 55-> 60-> 1945-> 151-> 158-> 411-> 5015
+1593534347 path not possible from node 134 to 5505
+1593534347 A connection has been delegated to thread id #1, system load 90.0%
+1593534347 Thread #3, waiting for connection
+1593534347 No path in database calculating 6041->288
+1593534347 A connection has been delegated to thread id #3, system load 80.0%
+1593534347 Thread #1, waiting for connection
+1593534347 Searching database for a path from node 5025 to node 6289
+1593534347 No path in database calculating 1022->2849
+1593534347 Searching database for a path from node 1971 to node 4786
+1593534347 No path in database calculating 1971->4786
+1593534347 path not possible from node 6041 to 288
+1593534347 Thread #6, waiting for connection
+1593534347 No path in database calculating 4771->1022
+1593534347 path calculated: 1022-> 1027-> 2849
+1593534347 No path in database calculating 248->4439
+1593534347 A connection has been delegated to thread id #6, system load 80.0%
+1593534347 path calculated: 1971-> 769-> 2702-> 351-> 356-> 2324-> 3475-> 4778-> 1743-> 3500-> 4786
+1593534347 A connection has been delegated to thread id #8, system load 80.0%
+1593534347 Thread #8, waiting for connection
+1593534347 No path in database calculating 4965->3857
+1593534347 Searching database for a path from node 3402 to node 2720
+1593534347 Thread #1, waiting for connection
+1593534347 A connection has been delegated to thread id #1, system load 80.0%
+1593534347 Searching database for a path from node 5161 to node 3466
+1593534347 No path in database calculating 5161->3466
+1593534347 path calculated: 248-> 326-> 2281-> 2498-> 4107-> 816-> 4695-> 5429-> 4439
+1593534347 Thread #9, waiting for connection
+1593534347 A connection has been delegated to thread id #9, system load 90.0%
+1593534347 path not possible from node 4965 to 3857
+1593534347 Searching database for a path from node 3280 to node 2550
+1593534347 Searching database for a path from node 2547 to node 2529
+1593534347 path not possible from node 5161 to 3466
+1593534347 Thread #1, waiting for connection
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #0, system load 80.0%
+1593534347 Thread #0, waiting for connection
+1593534347 A connection has been delegated to thread id #1, system load 90.0%
+1593534347 Searching database for a path from node 4733 to node 390
+1593534347 path calculated: 4771-> 804-> 805-> 637-> 874-> 1022
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 No path in database calculating 5025->6289
+1593534347 Searching database for a path from node 4526 to node 3230
+1593534347 No path in database calculating 4526->3230
+1593534347 path not possible from node 4526 to 3230
+1593534347 Thread #1, waiting for connection
+1593534347 path not possible from node 5025 to 6289
+1593534347 Thread #3, waiting for connection
+1593534347 Thread #7, waiting for connection
+1593534347 A connection has been delegated to thread id #1, system load 70.0%
+1593534347 Searching database for a path from node 539 to node 3648
+1593534347 No path in database calculating 1527->2600
+1593534347 Searching database for a path from node 5973 to node 4377
+1593534347 A connection has been delegated to thread id #3, system load 90.0%
+1593534347 No path in database calculating 5973->4377
+1593534347 Searching database for a path from node 53 to node 1529
+1593534347 No path in database calculating 53->1529
+1593534347 path not possible from node 5973 to 4377
+1593534347 No path in database calculating 3402->2720
+1593534347 path not possible from node 3402 to 2720
+1593534347 Thread #8, waiting for connection
+1593534347 No path in database calculating 2547->2529
+1593534347 A connection has been delegated to thread id #1, system load 80.0%
+1593534347 A connection has been delegated to thread id #8, system load 80.0%
+1593534347 No path in database calculating 539->3648
+1593534347 path calculated: 1527-> 1529-> 2886-> 176-> 697-> 2600
+1593534347 No path in database calculating 4898->4232
+1593534347 path not possible from node 4898 to 4232
+1593534347 No path in database calculating 4733->390
+1593534347 A connection has been delegated to thread id #2, system load 80.0%
+1593534347 No path in database calculating 3280->2550
+1593534347 path not possible from node 2547 to 2529
+1593534347 path calculated: 4733-> 178-> 1947-> 1934-> 390
+1593534347 Thread #0, waiting for connection
+1593534347 Thread #2, waiting for connection
+1593534347 Searching database for a path from node 1195 to node 5402
+1593534347 Thread #4, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 60.0%
+1593534347 No path in database calculating 3841->3018
+1593534347 A connection has been delegated to thread id #4, system load 70.0%
+1593534347 A connection has been delegated to thread id #9, system load 80.0%
+1593534347 path not possible from node 3280 to 2550
+1593534347 Thread #6, waiting for connection
+1593534347 path not possible from node 53 to 1529
+1593534347 A connection has been delegated to thread id #6, system load 70.0%
+1593534347 Thread #3, waiting for connection
+1593534347 Searching database for a path from node 3671 to node 795
+1593534347 Thread #9, waiting for connection
+1593534347 A connection has been delegated to thread id #3, system load 70.0%
+1593534347 path not possible from node 3841 to 3018
+1593534347 Thread #5, waiting for connection
+1593534347 A connection has been delegated to thread id #5, system load 80.0%
+1593534347 Thread #1, waiting for connection
+1593534347 Searching database for a path from node 1949 to node 85
+1593534347 Searching database for a path from node 386 to node 464
+1593534347 Searching database for a path from node 2167 to node 813
+1593534347 path not possible from node 539 to 3648
+1593534347 Thread #7, waiting for connection
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 Searching database for a path from node 338 to node 1265
+1593534347 Searching database for a path from node 3494 to node 445
+1593534347 Searching database for a path from node 2400 to node 1358
+1593534347 No path in database calculating 1195->5402
+1593534347 Searching database for a path from node 1933 to node 647
+1593534347 No path in database calculating 3671->795
+1593534347 Searching database for a path from node 3176 to node 2512
+1593534347 No path in database calculating 3176->2512
+1593534347 path not possible from node 1195 to 5402
+1593534347 Thread #2, waiting for connection
+1593534347 No path in database calculating 2167->813
+1593534347 A connection has been delegated to thread id #2, system load 90.0%
+1593534347 path not possible from node 3671 to 795
+1593534347 No path in database calculating 3494->445
+1593534347 Thread #6, waiting for connection
+1593534347 Searching database for a path from node 2080 to node 4016
+1593534347 A connection has been delegated to thread id #6, system load 90.0%
+1593534347 path calculated: 3176-> 3-> 703-> 2638-> 4232-> 5053-> 906-> 907-> 2807-> 4312-> 5207-> 544-> 2512
+1593534347 Thread #5, waiting for connection
+1593534347 A connection has been delegated to thread id #5, system load 80.0%
+1593534347 path not possible from node 3494 to 445
+1593534347 No path in database calculating 1949->85
+1593534347 No path in database calculating 1933->647
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 path not possible from node 2167 to 813
+1593534347 Thread #8, waiting for connection
+1593534347 A connection has been delegated to thread id #8, system load 80.0%
+1593534347 Thread #7, waiting for connection
+1593534347 Searching database for a path from node 6147 to node 4905
+1593534347 path not possible from node 1949 to 85
+1593534347 Thread #0, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 80.0%
+1593534347 Searching database for a path from node 6105 to node 3709
+1593534347 No path in database calculating 2080->4016
+1593534347 Searching database for a path from node 955 to node 4693
+1593534347 No path in database calculating 955->4693
+1593534347 path not possible from node 1933 to 647
+1593534347 Searching database for a path from node 1168 to node 1386
+1593534347 Searching database for a path from node 4492 to node 30
+1593534347 A connection has been delegated to thread id #3, system load 90.0%
+1593534347 path calculated: 2080-> 1027-> 2859-> 4334-> 5221-> 2322-> 4016
+1593534347 Thread #2, waiting for connection
+1593534347 A connection has been delegated to thread id #2, system load 80.0%
+1593534347 Thread #3, waiting for connection
+1593534347 Searching database for a path from node 567 to node 2688
+1593534347 No path in database calculating 6147->4905
+1593534347 Searching database for a path from node 955 to node 904
+1593534347 path calculated: 955-> 908-> 1842-> 3579-> 2001-> 2281-> 3962-> 4693
+1593534347 Thread #6, waiting for connection
+1593534347 path not possible from node 6147 to 4905
+1593534347 Thread #7, waiting for connection
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #6, system load 80.0%
+1593534347 A connection has been delegated to thread id #7, system load 80.0%
+1593534347 Searching database for a path from node 2292 to node 4216
+1593534347 No path in database calculating 386->464
+1593534347 Searching database for a path from node 4472 to node 5383
+1593534347 path calculated: 386-> 2360-> 3550-> 4280-> 464
+1593534347 Thread #1, waiting for connection
+1593534347 A connection has been delegated to thread id #1, system load 90.0%
+1593534347 No path in database calculating 2400->1358
+1593534347 No thread is avaiable! Waiting for one
+1593534347 Searching database for a path from node 1272 to node 4287
+1593534347 path not possible from node 2400 to 1358
+1593534347 Thread #4, waiting for connection
+1593534347 A connection has been delegated to thread id #4, system load 90.0%
+1593534347 No path in database calculating 1168->1386
+1593534347 No thread is avaiable! Waiting for one
+1593534347 Searching database for a path from node 3159 to node 961
+1593534347 path calculated: 1168-> 2797-> 175-> 3715-> 4839-> 1287-> 3140-> 6071-> 6252-> 6264-> 1379-> 1386
+1593534347 Thread #0, waiting for connection
+1593534347 No path in database calculating 4492->30
+1593534347 A connection has been delegated to thread id #0, system load 90.0%
+1593534347 No path in database calculating 955->904
+1593534347 path calculated: 4492-> 5321-> 3933-> 4720-> 133-> 2087-> 30
+1593534347 Thread #8, waiting for connection
+1593534347 No path in database calculating 2292->4216
+1593534347 A connection has been delegated to thread id #8, system load 90.0%
+1593534347 No path in database calculating 4472->5383
+1593534347 Searching database for a path from node 5834 to node 2607
+1593534347 No path in database calculating 5834->2607
+1593534347 path calculated: 2292-> 1259-> 176-> 700-> 2614-> 4216
+1593534347 path calculated: 955-> 1541-> 3323-> 145-> 667-> 2578-> 4222-> 904
+1593534347 path calculated: 5834-> 248-> 326-> 1004-> 693-> 2607
+1593534347 Thread #2, waiting for connection
+1593534347 Thread #7, waiting for connection
+1593534347 Searching database for a path from node 221 to node 2606
+1593534347 A connection has been delegated to thread id #2, system load 70.0%
+1593534347 No path in database calculating 338->1265
+1593534347 Thread #8, waiting for connection
+1593534347 No path in database calculating 567->2688
+1593534347 A connection has been delegated to thread id #7, system load 70.0%
+1593534347 path not possible from node 338 to 1265
+1593534347 A connection has been delegated to thread id #8, system load 70.0%
+1593534347 Thread #9, waiting for connection
+1593534347 path calculated: 4472-> 717-> 427-> 700-> 2614-> 4215-> 4583-> 5383
+1593534347 Searching database for a path from node 4713 to node 3738
+1593534347 Searching database for a path from node 2177 to node 3133
+1593534347 No path in database calculating 3159->961
+1593534347 path not possible from node 567 to 2688
+1593534347 Thread #6, waiting for connection
+1593534347 No path in database calculating 1272->4287
+1593534347 A connection has been delegated to thread id #3, system load 70.0%
+1593534347 A connection has been delegated to thread id #6, system load 70.0%
+1593534347 A connection has been delegated to thread id #9, system load 70.0%
+1593534347 path not possible from node 3159 to 961
+1593534347 Searching database for a path from node 5819 to node 3998
+1593534347 A connection has been delegated to thread id #4, system load 80.0%
+1593534347 Searching database for a path from node 4172 to node 1005
+1593534347 Searching database for a path from node 5461 to node 5371
+1593534347 Thread #3, waiting for connection
+1593534347 Thread #4, waiting for connection
+1593534347 Searching database for a path from node 978 to node 3230
+1593534347 path not possible from node 1272 to 4287
+1593534347 Searching database for a path from node 3323 to node 361
+1593534347 A connection has been delegated to thread id #1, system load 90.0%
+1593534347 No path in database calculating 4713->3738
+1593534347 Thread #1, waiting for connection
+1593534347 No path in database calculating 221->2606
+1593534347 Searching database for a path from node 2682 to node 3432
+1593534347 No path in database calculating 6105->3709
+1593534347 path not possible from node 4713 to 3738
+1593534347 A connection has been delegated to thread id #2, system load 90.0%
+1593534347 path not possible from node 221 to 2606
+1593534347 Thread #0, waiting for connection
+1593534347 Thread #2, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 80.0%
+1593534347 Searching database for a path from node 4956 to node 581
+1593534347 path not possible from node 6105 to 3709
+1593534347 Thread #5, waiting for connection
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #5, system load 90.0%
+1593534347 Searching database for a path from node 2525 to node 3680
+1593534347 No path in database calculating 5819->3998
+1593534347 Searching database for a path from node 6270 to node 2842
+1593534347 No thread is avaiable! Waiting for one
+1593534347 No path in database calculating 2525->3680
+1593534347 path calculated: 5819-> 143-> 249-> 351-> 355-> 49-> 3998
+1593534347 Thread #8, waiting for connection
+1593534347 path not possible from node 2525 to 3680
+1593534347 Thread #0, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 80.0%
+1593534347 No path in database calculating 978->3230
+1593534347 path calculated: 978-> 314-> 249-> 250-> 1389-> 1390-> 3230
+1593534347 Searching database for a path from node 3777 to node 3069
+1593534347 Thread #4, waiting for connection
+1593534347 No path in database calculating 3323->361
+1593534347 A connection has been delegated to thread id #4, system load 80.0%
+1593534347 A connection has been delegated to thread id #8, system load 90.0%
+1593534347 Searching database for a path from node 2983 to node 445
+1593534347 No path in database calculating 2983->445
+1593534347 path calculated: 3323-> 145-> 1317-> 3163-> 4567-> 1922-> 3690-> 360-> 361
+1593534347 Thread #3, waiting for connection
+1593534347 path not possible from node 2983 to 445
+1593534347 Thread #4, waiting for connection
+1593534347 No path in database calculating 4172->1005
+1593534347 path not possible from node 4172 to 1005
+1593534347 Thread #9, waiting for connection
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #3, system load 70.0%
+1593534347 Searching database for a path from node 3349 to node 321
+1593534347 A connection has been delegated to thread id #4, system load 70.0%
+1593534347 No path in database calculating 5461->5371
+1593534347 A connection has been delegated to thread id #9, system load 90.0%
+1593534347 Searching database for a path from node 240 to node 3312
+1593534347 No path in database calculating 240->3312
+1593534347 Searching database for a path from node 2194 to node 874
+1593534347 Searching database for a path from node 3064 to node 2747
+1593534347 No thread is avaiable! Waiting for one
+1593534347 path not possible from node 5461 to 5371
+1593534347 Thread #6, waiting for connection
+1593534347 A connection has been delegated to thread id #6, system load 90.0%
+1593534347 No path in database calculating 2177->3133
+1593534347 path not possible from node 2177 to 3133
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 Searching database for a path from node 2426 to node 3917
+1593534347 No path in database calculating 2426->3917
+1593534347 Thread #7, waiting for connection
+1593534347 No path in database calculating 6270->2842
+1593534347 Searching database for a path from node 4539 to node 4196
+1593534347 path not possible from node 240 to 3312
+1593534347 No path in database calculating 2682->3432
+1593534347 No thread is avaiable! Waiting for one
+1593534347 path not possible from node 2426 to 3917
+1593534347 A connection has been delegated to thread id #4, system load 90.0%
+1593534347 Thread #6, waiting for connection
+1593534347 A connection has been delegated to thread id #6, system load 80.0%
+1593534347 Searching database for a path from node 2376 to node 5795
+1593534347 path not possible from node 6270 to 2842
+1593534347 Thread #5, waiting for connection
+1593534347 No path in database calculating 3064->2747
+1593534347 A connection has been delegated to thread id #5, system load 80.0%
+1593534347 path not possible from node 2682 to 3432
+1593534347 path not possible from node 3064 to 2747
+1593534347 Searching database for a path from node 5189 to node 5154
+1593534347 No path in database calculating 3349->321
+1593534347 A connection has been delegated to thread id #1, system load 80.0%
+1593534347 Thread #9, waiting for connection
+1593534347 A connection has been delegated to thread id #9, system load 70.0%
+1593534347 Thread #1, waiting for connection
+1593534347 Thread #4, waiting for connection
+1593534347 Searching database for a path from node 2580 to node 1602
+1593534347 No path in database calculating 3777->3069
+1593534347 Searching database for a path from node 3656 to node 449
+1593534347 No path in database calculating 2194->874
+1593534347 Searching database for a path from node 4887 to node 1670
+1593534347 path not possible from node 3349 to 321
+1593534347 Thread #8, waiting for connection
+1593534347 A connection has been delegated to thread id #8, system load 90.0%
+1593534347 path not possible from node 2194 to 874
+1593534347 Searching database for a path from node 2144 to node 2643
+1593534347 Thread #3, waiting for connection
+1593534347 A connection has been delegated to thread id #3, system load 90.0%
+1593534347 path not possible from node 3777 to 3069
+1593534347 Searching database for a path from node 655 to node 1577
+1593534347 No path in database calculating 4887->1670
+1593534347 A connection has been delegated to thread id #0, system load 90.0%
+1593534347 Thread #0, waiting for connection
+1593534347 No path in database calculating 2376->5795
+1593534347 Searching database for a path from node 5286 to node 5728
+1593534347 No path in database calculating 4956->581
+1593534347 path not possible from node 4887 to 1670
+1593534347 Thread #4, waiting for connection
+1593534347 path calculated: 2376-> 2906-> 2670-> 559-> 823-> 1326-> 335-> 81-> 1987-> 5795
+1593534347 A connection has been delegated to thread id #4, system load 90.0%
+1593534347 path not possible from node 4956 to 581
+1593534347 A connection has been delegated to thread id #6, system load 90.0%
+1593534347 Thread #2, waiting for connection
+1593534347 No path in database calculating 2144->2643
+1593534347 Thread #6, waiting for connection
+1593534347 A connection has been delegated to thread id #2, system load 80.0%
+1593534347 Searching database for a path from node 2280 to node 1811
+1593534347 Searching database for a path from node 5811 to node 2652
+1593534347 Searching database for a path from node 4573 to node 368
+1593534347 No thread is avaiable! Waiting for one
+1593534347 path not possible from node 2144 to 2643
+1593534347 Thread #8, waiting for connection
+1593534347 A connection has been delegated to thread id #8, system load 90.0%
+1593534347 No path in database calculating 4539->4196
+1593534347 Searching database for a path from node 5029 to node 5409
+1593534347 No path in database calculating 3656->449
+1593534347 path calculated: 4539-> 1651-> 1974-> 694-> 695-> 2596-> 4196
+1593534347 No path in database calculating 2580->1602
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 Thread #7, waiting for connection
+1593534347 No path in database calculating 5286->5728
+1593534347 Searching database for a path from node 2686 to node 2430
+1593534347 path not possible from node 2580 to 1602
+1593534347 Thread #1, waiting for connection
+1593534347 A connection has been delegated to thread id #1, system load 90.0%
+1593534347 path not possible from node 5286 to 5728
+1593534347 A connection has been delegated to thread id #0, system load 90.0%
+1593534347 Searching database for a path from node 446 to node 3251
+1593534347 No path in database calculating 2280->1811
+1593534347 path not possible from node 3656 to 449
+1593534347 Thread #0, waiting for connection
+1593534347 A connection has been delegated to thread id #9, system load 90.0%
+1593534347 No path in database calculating 5811->2652
+1593534347 Searching database for a path from node 2891 to node 4381
+1593534347 No path in database calculating 2891->4381
+1593534347 Thread #9, waiting for connection
+1593534347 No path in database calculating 5029->5409
+1593534347 path calculated: 5811-> 2324-> 1245-> 149-> 250-> 64-> 1950-> 2652
+1593534347 A connection has been delegated to thread id #6, system load 90.0%
+1593534347 Searching database for a path from node 3137 to node 60
+1593534347 path not possible from node 2891 to 4381
+1593534347 Thread #6, waiting for connection
+1593534347 Thread #0, waiting for connection
+1593534347 path calculated: 5029-> 177-> 149-> 250-> 1389-> 1396-> 3281-> 4650-> 5409
+1593534347 A connection has been delegated to thread id #0, system load 90.0%
+1593534347 Thread #8, waiting for connection
+1593534347 A connection has been delegated to thread id #8, system load 80.0%
+1593534347 No path in database calculating 2686->2430
+1593534347 path not possible from node 2280 to 1811
+1593534347 Searching database for a path from node 4405 to node 2044
+1593534347 Searching database for a path from node 3007 to node 4421
+1593534347 Thread #4, waiting for connection
+1593534347 A connection has been delegated to thread id #4, system load 90.0%
+1593534347 No path in database calculating 446->3251
+1593534347 Searching database for a path from node 1478 to node 4287
+1593534347 No path in database calculating 5189->5154
+1593534347 Searching database for a path from node 4103 to node 3598
+1593534347 path not possible from node 2686 to 2430
+1593534347 Thread #7, waiting for connection
+1593534347 path not possible from node 446 to 3251
+1593534347 Thread #1, waiting for connection
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #1, system load 80.0%
+1593534347 No path in database calculating 4573->368
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 path not possible from node 5189 to 5154
+1593534347 Thread #5, waiting for connection
+1593534347 Searching database for a path from node 876 to node 355
+1593534347 No path in database calculating 4405->2044
+1593534347 A connection has been delegated to thread id #5, system load 90.0%
+1593534347 Searching database for a path from node 5715 to node 5115
+1593534347 No path in database calculating 5715->5115
+1593534347 path not possible from node 4573 to 368
+1593534347 path calculated: 4405-> 3-> 703-> 1620-> 112-> 2044
+1593534347 A connection has been delegated to thread id #2, system load 90.0%
+1593534347 Searching database for a path from node 4731 to node 4916
+1593534347 Thread #8, waiting for connection
+1593534347 No path in database calculating 4731->4916
+1593534347 A connection has been delegated to thread id #8, system load 80.0%
+1593534347 Thread #2, waiting for connection
+1593534347 path not possible from node 5715 to 5115
+1593534347 Thread #1, waiting for connection
+1593534347 No thread is avaiable! Waiting for one
+1593534347 A connection has been delegated to thread id #1, system load 90.0%
+1593534347 path calculated: 4731-> 3120-> 178-> 1947-> 3728-> 73-> 1971-> 3738-> 4916
+1593534347 Thread #5, waiting for connection
+1593534347 A connection has been delegated to thread id #5, system load 80.0%
+1593534347 No path in database calculating 655->1577
+1593534347 Searching database for a path from node 324 to node 494
+1593534347 No path in database calculating 324->494
+1593534347 No thread is avaiable! Waiting for one
+1593534347 No path in database calculating 876->355
+1593534347 Searching database for a path from node 5619 to node 2696
+1593534347 path not possible from node 876 to 355
+1593534347 Searching database for a path from node 1703 to node 4356
+1593534347 A connection has been delegated to thread id #7, system load 90.0%
+1593534347 Searching database for a path from node 877 to node 5466
+1593534347 path not possible from node 324 to 494
+1593534347 No path in database calculating 1478->4287
+1593534347 A connection has been delegated to thread id #5, system load 80.0%
+1593534347 path calculated: 655-> 1999-> 1867-> 3616-> 3115-> 4541-> 1577
+1593534347 Thread #3, waiting for connection
+1593534347 A connection has been delegated to thread id #3, system load 70.0%
+1593534347 Thread #5, waiting for connection
+1593534347 No path in database calculating 3137->60
+1593534347 Thread #7, waiting for connection
+1593534347 No path in database calculating 3007->4421
+1593534347 Searching database for a path from node 6028 to node 1597
+1593534347 Searching database for a path from node 6163 to node 3711
+1593534347 path calculated: 1478-> 110-> 1361-> 1814-> 3550-> 4280-> 2709-> 4287
+1593534347 path not possible from node 3007 to 4421
+1593534347 A connection has been delegated to thread id #6, system load 90.0%
+1593534347 Thread #0, waiting for connection
+1593534347 A connection has been delegated to thread id #0, system load 80.0%
+1593534347 Searching database for a path from node 2488 to node 5539
+1593534347 No path in database calculating 4103->3598
+1593534347 path calculated: 3137-> 1212-> 1402-> 55-> 60
+1593534348 No path in database calculating 1703->4356
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534347 Thread #6, waiting for connection
+1593534347 Searching database for a path from node 1005 to node 3897
+1593534348 Thread #9, waiting for connection
+1593534348 Searching database for a path from node 351 to node 5931
+1593534348 path calculated: 4103-> 175-> 3849-> 129-> 2079-> 1850-> 3598
+1593534348 No path in database calculating 351->5931
+1593534348 Thread #4, waiting for connection
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 Searching database for a path from node 515 to node 4578
+1593534348 path calculated: 1703-> 3470-> 2360-> 3550-> 2859-> 4356
+1593534348 A connection has been delegated to thread id #1, system load 80.0%
+1593534348 No path in database calculating 6163->3711
+1593534348 Searching database for a path from node 437 to node 4877
+1593534348 No path in database calculating 437->4877
+1593534348 path not possible from node 6163 to 3711
+1593534348 Thread #1, waiting for connection
+1593534348 No path in database calculating 1005->3897
+1593534348 A connection has been delegated to thread id #7, system load 80.0%
+1593534348 Thread #7, waiting for connection
+1593534348 No path in database calculating 877->5466
+1593534348 Searching database for a path from node 1960 to node 961
+1593534348 No path in database calculating 1960->961
+1593534348 path calculated: 351-> 353-> 123-> 3-> 1287-> 3140-> 5931
+1593534348 No path in database calculating 6028->1597
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 Searching database for a path from node 3853 to node 3484
+1593534348 No path in database calculating 3853->3484
+1593534348 path calculated: 437-> 2500-> 3705-> 1947-> 3728-> 73-> 1974-> 3747-> 4877
+1593534348 path not possible from node 877 to 5466
+1593534348 path not possible from node 6028 to 1597
+1593534348 path calculated: 1005-> 174-> 3-> 703-> 2634-> 3897
+1593534348 A connection has been delegated to thread id #2, system load 60.0%
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 50.0%
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #3, system load 60.0%
+1593534348 A connection has been delegated to thread id #4, system load 60.0%
+1593534348 path not possible from node 1960 to 961
+1593534348 Searching database for a path from node 4327 to node 5733
+1593534348 A connection has been delegated to thread id #7, system load 60.0%
+1593534348 path not possible from node 3853 to 3484
+1593534348 Thread #1, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 50.0%
+1593534348 Thread #4, waiting for connection
+1593534348 Thread #3, waiting for connection
+1593534348 Searching database for a path from node 2850 to node 213
+1593534348 Searching database for a path from node 1750 to node 679
+1593534348 Thread #2, waiting for connection
+1593534348 Thread #7, waiting for connection
+1593534348 No path in database calculating 5619->2696
+1593534348 Searching database for a path from node 1275 to node 3710
+1593534348 No path in database calculating 2488->5539
+1593534348 Searching database for a path from node 2511 to node 3625
+1593534348 path not possible from node 2488 to 5539
+1593534348 Searching database for a path from node 3356 to node 4590
+1593534348 A connection has been delegated to thread id #5, system load 90.0%
+1593534348 Searching database for a path from node 1988 to node 3365
+1593534348 No path in database calculating 515->4578
+1593534348 No path in database calculating 2850->213
+1593534348 path calculated: 5619-> 391-> 146-> 3337-> 32-> 1459-> 3311-> 767-> 2696
+1593534348 Thread #5, waiting for connection
+1593534348 A connection has been delegated to thread id #8, system load 80.0%
+1593534348 path not possible from node 515 to 4578
+1593534348 Searching database for a path from node 12 to node 2742
+1593534348 path not possible from node 2850 to 213
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 70.0%
+1593534348 Thread #9, waiting for connection
+1593534348 No path in database calculating 1275->3710
+1593534348 Thread #8, waiting for connection
+1593534348 No path in database calculating 2511->3625
+1593534348 Searching database for a path from node 638 to node 5004
+1593534348 Searching database for a path from node 4150 to node 3806
+1593534348 Searching database for a path from node 827 to node 6061
+1593534348 path calculated: 1275-> 1278-> 2228-> 1173-> 2683-> 3710
+1593534348 Thread #1, waiting for connection
+1593534348 No path in database calculating 1988->3365
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 Searching database for a path from node 2214 to node 2346
+1593534348 path not possible from node 2511 to 3625
+1593534348 No thread is avaiable! Waiting for one
+1593534348 path not possible from node 1988 to 3365
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 Thread #7, waiting for connection
+1593534348 No path in database calculating 4327->5733
+1593534348 A connection has been delegated to thread id #7, system load 80.0%
+1593534348 Searching database for a path from node 3356 to node 1301
+1593534348 Thread #4, waiting for connection
+1593534348 No path in database calculating 4150->3806
+1593534348 path not possible from node 4327 to 5733
+1593534348 Searching database for a path from node 3642 to node 1453
+1593534348 No path in database calculating 3642->1453
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 Searching database for a path from node 124 to node 5749
+1593534348 No path in database calculating 124->5749
+1593534348 No thread is avaiable! Waiting for one
+1593534348 path not possible from node 3642 to 1453
+1593534348 path calculated: 124-> 762-> 175-> 3066-> 5404-> 5749
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #6, system load 80.0%
+1593534348 No path in database calculating 3356->4590
+1593534348 Thread #4, waiting for connection
+1593534348 No path in database calculating 638->5004
+1593534348 Searching database for a path from node 6275 to node 3286
+1593534348 path calculated: 3356-> 127-> 175-> 3344-> 4689-> 5423-> 3202-> 4590
+1593534348 path not possible from node 4150 to 3806
+1593534348 A connection has been delegated to thread id #2, system load 90.0%
+1593534348 Searching database for a path from node 1886 to node 4059
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 No path in database calculating 1750->679
+1593534348 Thread #2, waiting for connection
+1593534348 path not possible from node 638 to 5004
+1593534348 Thread #9, waiting for connection
+1593534348 No path in database calculating 12->2742
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 Searching database for a path from node 5608 to node 5244
+1593534348 Thread #0, waiting for connection
+1593534348 Searching database for a path from node 4848 to node 2566
+1593534348 path calculated: 1750-> 1217-> 1670-> 1540-> 1541-> 679
+1593534348 No path in database calculating 5608->5244
+1593534348 A connection has been delegated to thread id #3, system load 90.0%
+1593534348 Searching database for a path from node 3413 to node 5538
+1593534348 path not possible from node 12 to 2742
+1593534348 A connection has been delegated to thread id #5, system load 80.0%
+1593534348 Thread #3, waiting for connection
+1593534348 No path in database calculating 6275->3286
+1593534348 Searching database for a path from node 4896 to node 1936
+1593534348 No path in database calculating 4896->1936
+1593534348 Thread #5, waiting for connection
+1593534348 path not possible from node 6275 to 3286
+1593534348 Searching database for a path from node 5266 to node 4682
+1593534348 Thread #4, waiting for connection
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 path calculated: 4896-> 2779-> 149-> 238-> 2181-> 2646-> 1936
+1593534348 No path in database calculating 2214->2346
+1593534348 A connection has been delegated to thread id #3, system load 80.0%
+1593534348 Searching database for a path from node 2112 to node 1837
+1593534348 No path in database calculating 2112->1837
+1593534348 path calculated: 5608-> 311-> 143-> 146-> 3337-> 2723-> 1025-> 5106-> 5244
+1593534348 No path in database calculating 3413->5538
+1593534348 Thread #3, waiting for connection
+1593534348 Searching database for a path from node 4333 to node 1757
+1593534348 path not possible from node 2214 to 2346
+1593534348 A connection has been delegated to thread id #2, system load 90.0%
+1593534348 path not possible from node 3413 to 5538
+1593534348 Thread #1, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 70.0%
+1593534348 Thread #2, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 70.0%
+1593534348 Searching database for a path from node 3213 to node 3156
+1593534348 path calculated: 2112-> 2091-> 3866-> 3355-> 1837
+1593534348 Searching database for a path from node 4717 to node 4570
+1593534348 A connection has been delegated to thread id #4, system load 80.0%
+1593534348 Thread #0, waiting for connection
+1593534348 Searching database for a path from node 6208 to node 6283
+1593534348 No path in database calculating 5266->4682
+1593534348 No path in database calculating 4848->2566
+1593534348 No path in database calculating 1886->4059
+1593534348 No path in database calculating 3356->1301
+1593534348 path not possible from node 4848 to 2566
+1593534348 No path in database calculating 827->6061
+1593534348 path not possible from node 1886 to 4059
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 path calculated: 3356-> 352-> 2001-> 253-> 257-> 1301
+1593534348 No path in database calculating 4333->1757
+1593534348 Thread #7, waiting for connection
+1593534348 A connection has been delegated to thread id #6, system load 60.0%
+1593534348 A connection has been delegated to thread id #7, system load 60.0%
+1593534348 Thread #4, waiting for connection
+1593534348 path not possible from node 827 to 6061
+1593534348 Thread #8, waiting for connection
+1593534348 A connection has been delegated to thread id #8, system load 70.0%
+1593534348 path not possible from node 5266 to 4682
+1593534348 Searching database for a path from node 419 to node 6286
+1593534348 Searching database for a path from node 1713 to node 1723
+1593534348 Thread #9, waiting for connection
+1593534348 Searching database for a path from node 3588 to node 4355
+1593534348 A connection has been delegated to thread id #5, system load 70.0%
+1593534348 Searching database for a path from node 4249 to node 5485
+1593534348 No path in database calculating 3213->3156
+1593534348 path not possible from node 4333 to 1757
+1593534348 No path in database calculating 4717->4570
+1593534348 Thread #6, waiting for connection
+1593534348 Thread #5, waiting for connection
+1593534348 A connection has been delegated to thread id #3, system load 70.0%
+1593534348 No path in database calculating 6208->6283
+1593534348 Thread #3, waiting for connection
+1593534348 path not possible from node 4717 to 4570
+1593534348 Searching database for a path from node 3947 to node 106
+1593534348 Thread #1, waiting for connection
+1593534348 path not possible from node 6208 to 6283
+1593534348 Searching database for a path from node 365 to node 1068
+1593534348 A connection has been delegated to thread id #0, system load 80.0%
+1593534348 Thread #0, waiting for connection
+1593534348 path calculated: 3213-> 369-> 559-> 821-> 1223-> 3156
+1593534348 A connection has been delegated to thread id #1, system load 80.0%
+1593534348 Thread #2, waiting for connection
+1593534348 Searching database for a path from node 2754 to node 987
+1593534348 A connection has been delegated to thread id #2, system load 90.0%
+1593534348 No path in database calculating 419->6286
+1593534348 Searching database for a path from node 394 to node 2284
+1593534348 Searching database for a path from node 2310 to node 3414
+1593534348 path not possible from node 419 to 6286
+1593534348 Thread #4, waiting for connection
+1593534348 Searching database for a path from node 240 to node 4598
+1593534348 No thread is avaiable! Waiting for one
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 No path in database calculating 4249->5485
+1593534348 No path in database calculating 3588->4355
+1593534348 No path in database calculating 365->1068
+1593534348 Searching database for a path from node 6228 to node 2204
+1593534348 path calculated: 3588-> 4813-> 1434-> 1019-> 2927-> 963-> 2852-> 4355
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 path not possible from node 4249 to 5485
+1593534348 No path in database calculating 394->2284
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 path not possible from node 365 to 1068
+1593534348 Thread #8, waiting for connection
+1593534348 A connection has been delegated to thread id #3, system load 70.0%
+1593534348 path not possible from node 394 to 2284
+1593534348 Searching database for a path from node 1616 to node 189
+1593534348 A connection has been delegated to thread id #2, system load 70.0%
+1593534348 Thread #2, waiting for connection
+1593534348 Thread #9, waiting for connection
+1593534348 Searching database for a path from node 781 to node 2890
+1593534348 Searching database for a path from node 501 to node 2591
+1593534348 No path in database calculating 240->4598
+1593534348 Thread #3, waiting for connection
+1593534348 No path in database calculating 2754->987
+1593534348 Searching database for a path from node 4419 to node 5266
+1593534348 path not possible from node 240 to 4598
+1593534348 path not possible from node 2754 to 987
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 No path in database calculating 6228->2204
+1593534348 Thread #0, waiting for connection
+1593534348 Thread #5, waiting for connection
+1593534348 No path in database calculating 1713->1723
+1593534348 Searching database for a path from node 472 to node 3380
+1593534348 A connection has been delegated to thread id #5, system load 90.0%
+1593534348 path not possible from node 6228 to 2204
+1593534348 Thread #4, waiting for connection
+1593534348 path not possible from node 1713 to 1723
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 Searching database for a path from node 5098 to node 1867
+1593534348 No path in database calculating 1616->189
+1593534348 No thread is avaiable! Waiting for one
+1593534348 No path in database calculating 501->2591
+1593534348 A connection has been delegated to thread id #7, system load 90.0%
+1593534348 path calculated: 1616-> 1620-> 1658-> 3409-> 707-> 1107-> 998-> 181-> 189
+1593534348 Thread #7, waiting for connection
+1593534348 Searching database for a path from node 5377 to node 2420
+1593534348 A connection has been delegated to thread id #8, system load 80.0%
+1593534348 No path in database calculating 4419->5266
+1593534348 path not possible from node 501 to 2591
+1593534348 No path in database calculating 472->3380
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 Thread #8, waiting for connection
+1593534348 path calculated: 4419-> 8-> 1394-> 1317-> 1534-> 4891-> 2949-> 4421-> 5266
+1593534348 Thread #9, waiting for connection
+1593534348 Thread #3, waiting for connection
+1593534348 A connection has been delegated to thread id #3, system load 90.0%
+1593534348 Searching database for a path from node 5717 to node 309
+1593534348 No path in database calculating 781->2890
+1593534348 Searching database for a path from node 4954 to node 67
+1593534348 Searching database for a path from node 4432 to node 706
+1593534348 No path in database calculating 4954->67
+1593534348 Searching database for a path from node 2342 to node 2726
+1593534348 path calculated: 472-> 1485-> 9-> 250-> 64-> 1948-> 1626-> 3380
+1593534348 No path in database calculating 5098->1867
+1593534348 Thread #0, waiting for connection
+1593534348 path not possible from node 781 to 2890
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 path not possible from node 4954 to 67
+1593534348 Searching database for a path from node 4092 to node 3947
+1593534348 A connection has been delegated to thread id #2, system load 80.0%
+1593534348 Thread #2, waiting for connection
+1593534348 A connection has been delegated to thread id #7, system load 80.0%
+1593534348 No path in database calculating 5717->309
+1593534348 Searching database for a path from node 5569 to node 4682
+1593534348 No path in database calculating 5569->4682
+1593534348 path not possible from node 5098 to 1867
+1593534348 path not possible from node 5717 to 309
+1593534348 Thread #7, waiting for connection
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 Thread #9, waiting for connection
+1593534348 path not possible from node 5569 to 4682
+1593534348 Searching database for a path from node 3813 to node 236
+1593534348 Thread #4, waiting for connection
+1593534348 A connection has been delegated to thread id #2, system load 80.0%
+1593534348 No path in database calculating 2310->3414
+1593534348 A connection has been delegated to thread id #4, system load 80.0%
+1593534348 Thread #2, waiting for connection
+1593534348 Searching database for a path from node 2447 to node 33
+1593534348 No path in database calculating 3947->106
+1593534348 Searching database for a path from node 4096 to node 5360
+1593534348 No path in database calculating 4432->706
+1593534348 path not possible from node 2310 to 3414
+1593534348 path not possible from node 3947 to 106
+1593534348 Thread #1, waiting for connection
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 80.0%
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 Searching database for a path from node 2358 to node 5212
+1593534348 path calculated: 4432-> 1217-> 1670-> 473-> 4207-> 706
+1593534348 Searching database for a path from node 5241 to node 1759
+1593534348 Searching database for a path from node 2758 to node 5666
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 No path in database calculating 5377->2420
+1593534348 Thread #8, waiting for connection
+1593534348 Searching database for a path from node 4046 to node 1666
+1593534348 No path in database calculating 2447->33
+1593534348 path not possible from node 5377 to 2420
+1593534348 No path in database calculating 4092->3947
+1593534348 A connection has been delegated to thread id #5, system load 90.0%
+1593534348 Thread #5, waiting for connection
+1593534348 Searching database for a path from node 173 to node 1003
+1593534348 No path in database calculating 173->1003
+1593534348 path not possible from node 4092 to 3947
+1593534348 No path in database calculating 2358->5212
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 path not possible from node 2447 to 33
+1593534348 path calculated: 173-> 179-> 31-> 637-> 874-> 1003
+1593534348 Thread #9, waiting for connection
+1593534348 A connection has been delegated to thread id #9, system load 90.0%
+1593534348 path calculated: 2358-> 1522-> 2032-> 249-> 351-> 356-> 572-> 4319-> 5212
+1593534348 A connection has been delegated to thread id #5, system load 90.0%
+1593534348 Thread #1, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 80.0%
+1593534348 Searching database for a path from node 3084 to node 6145
+1593534348 No path in database calculating 3813->236
+1593534348 Searching database for a path from node 1720 to node 6163
+1593534348 Thread #5, waiting for connection
+1593534348 Searching database for a path from node 5045 to node 5514
+1593534348 No path in database calculating 2342->2726
+1593534348 path not possible from node 3813 to 236
+1593534348 No path in database calculating 4046->1666
+1593534348 path not possible from node 2342 to 2726
+1593534348 A connection has been delegated to thread id #7, system load 90.0%
+1593534348 Thread #3, waiting for connection
+1593534348 Searching database for a path from node 4084 to node 5855
+1593534348 No path in database calculating 4084->5855
+1593534348 Thread #7, waiting for connection
+1593534348 A connection has been delegated to thread id #3, system load 80.0%
+1593534348 No path in database calculating 5241->1759
+1593534348 Searching database for a path from node 1473 to node 3744
+1593534348 Searching database for a path from node 845 to node 1043
+1593534348 No path in database calculating 845->1043
+1593534348 path not possible from node 4046 to 1666
+1593534348 Thread #8, waiting for connection
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 No path in database calculating 3084->6145
+1593534348 path not possible from node 4084 to 5855
+1593534348 path not possible from node 5241 to 1759
+1593534348 Thread #6, waiting for connection
+1593534348 No thread is avaiable! Waiting for one
+1593534348 A connection has been delegated to thread id #5, system load 80.0%
+1593534348 path not possible from node 3084 to 6145
+1593534348 Thread #5, waiting for connection
+1593534348 A connection has been delegated to thread id #6, system load 80.0%
+1593534348 Searching database for a path from node 5192 to node 1586
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 No path in database calculating 4096->5360
+1593534348 path calculated: 845-> 176-> 248-> 326-> 1004-> 2903-> 1043
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #3, system load 80.0%
+1593534348 Searching database for a path from node 4126 to node 688
+1593534348 Searching database for a path from node 3302 to node 5407
+1593534348 No path in database calculating 1720->6163
+1593534348 path calculated: 4096-> 1772-> 1168-> 2797-> 5-> 179-> 559-> 823-> 1328-> 3171-> 4569-> 5360
+1593534348 Thread #3, waiting for connection
+1593534348 Searching database for a path from node 4468 to node 5451
+1593534348 A connection has been delegated to thread id #2, system load 80.0%
+1593534348 Searching database for a path from node 2739 to node 519
+1593534348 Thread #2, waiting for connection
+1593534348 path not possible from node 1720 to 6163
+1593534348 No path in database calculating 2758->5666
+1593534348 A connection has been delegated to thread id #9, system load 90.0%
+1593534348 No path in database calculating 1473->3744
+1593534348 path not possible from node 2758 to 5666
+1593534348 A connection has been delegated to thread id #4, system load 80.0%
+1593534348 Thread #4, waiting for connection
+1593534348 Searching database for a path from node 1802 to node 4897
+1593534348 Thread #9, waiting for connection
+1593534348 Searching database for a path from node 2539 to node 3078
+1593534348 Searching database for a path from node 1119 to node 182
+1593534348 No path in database calculating 5045->5514
+1593534348 path calculated: 1473-> 127-> 175-> 4539-> 1651-> 1974-> 3744
+1593534348 Thread #7, waiting for connection
+1593534348 A connection has been delegated to thread id #7, system load 90.0%
+1593534348 No path in database calculating 4126->688
+1593534348 Searching database for a path from node 5336 to node 2490
+1593534348 No path in database calculating 5336->2490
+1593534348 path calculated: 5045-> 5096-> 427-> 700-> 2614-> 2343-> 3566-> 4825-> 5514
+1593534348 Thread #1, waiting for connection
+1593534348 No path in database calculating 4468->5451
+1593534348 No thread is avaiable! Waiting for one
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 path not possible from node 5336 to 2490
+1593534348 No path in database calculating 2539->3078
+1593534348 Searching database for a path from node 3241 to node 1409
+1593534348 A connection has been delegated to thread id #7, system load 90.0%
+1593534348 path not possible from node 4468 to 5451
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 80.0%
+1593534348 Thread #7, waiting for connection
+1593534348 path not possible from node 4126 to 688
+1593534348 No path in database calculating 3302->5407
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 Thread #6, waiting for connection
+1593534348 path not possible from node 2539 to 3078
+1593534348 Searching database for a path from node 2318 to node 6000
+1593534348 path not possible from node 3302 to 5407
+1593534348 Thread #5, waiting for connection
+1593534348 No thread is avaiable! Waiting for one
+1593534348 A connection has been delegated to thread id #5, system load 80.0%
+1593534348 Thread #9, waiting for connection
+1593534348 No path in database calculating 1802->4897
+1593534348 A connection has been delegated to thread id #9, system load 90.0%
+1593534348 Searching database for a path from node 833 to node 4550
+1593534348 Searching database for a path from node 2175 to node 5864
+1593534348 No thread is avaiable! Waiting for one
+1593534348 Searching database for a path from node 2636 to node 727
+1593534348 Searching database for a path from node 1005 to node 2209
+1593534348 No path in database calculating 1119->182
+1593534348 path not possible from node 1802 to 4897
+1593534348 Thread #4, waiting for connection
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 No path in database calculating 3241->1409
+1593534348 Searching database for a path from node 4116 to node 2280
+1593534348 No path in database calculating 4116->2280
+1593534348 path not possible from node 1119 to 182
+1593534348 path not possible from node 3241 to 1409
+1593534348 Thread #1, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 path not possible from node 4116 to 2280
+1593534348 No path in database calculating 2318->6000
+1593534348 Thread #2, waiting for connection
+1593534348 Searching database for a path from node 4904 to node 2213
+1593534348 A connection has been delegated to thread id #2, system load 80.0%
+1593534348 Thread #4, waiting for connection
+1593534348 Searching database for a path from node 6116 to node 3907
+1593534348 No path in database calculating 6116->3907
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 path calculated: 2318-> 4010-> 3003-> 2871-> 4343-> 5200-> 4176-> 2205-> 6000
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 No path in database calculating 2175->5864
+1593534348 path not possible from node 6116 to 3907
+1593534348 Searching database for a path from node 459 to node 2174
+1593534348 A connection has been delegated to thread id #2, system load 80.0%
+1593534348 Searching database for a path from node 949 to node 862
+1593534348 No path in database calculating 949->862
+1593534348 path not possible from node 2175 to 5864
+1593534348 Thread #2, waiting for connection
+1593534348 Thread #7, waiting for connection
+1593534348 A connection has been delegated to thread id #7, system load 90.0%
+1593534348 Searching database for a path from node 2904 to node 3476
+1593534348 No path in database calculating 5192->1586
+1593534348 path calculated: 949-> 2829-> 1228-> 1896-> 1556-> 859-> 862
+1593534348 Thread #6, waiting for connection
+1593534348 Searching database for a path from node 6189 to node 540
+1593534348 No thread is avaiable! Waiting for one
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 No path in database calculating 4904->2213
+1593534348 Searching database for a path from node 1640 to node 2530
+1593534348 No thread is avaiable! Waiting for one
+1593534348 path not possible from node 5192 to 1586
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 Thread #8, waiting for connection
+1593534348 No path in database calculating 459->2174
+1593534348 Searching database for a path from node 3446 to node 3203
+1593534348 path not possible from node 4904 to 2213
+1593534348 Thread #1, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 path not possible from node 459 to 2174
+1593534348 No path in database calculating 2739->519
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 Thread #4, waiting for connection
+1593534348 Searching database for a path from node 5381 to node 3764
+1593534348 Searching database for a path from node 5317 to node 439
+1593534348 No path in database calculating 1005->2209
+1593534348 path not possible from node 2739 to 519
+1593534348 No path in database calculating 833->4550
+1593534348 path calculated: 1005-> 174-> 249-> 251-> 2209
+1593534348 A connection has been delegated to thread id #3, system load 90.0%
+1593534348 Thread #0, waiting for connection
+1593534348 No path in database calculating 2636->727
+1593534348 A connection has been delegated to thread id #0, system load 80.0%
+1593534348 path not possible from node 833 to 4550
+1593534348 Thread #9, waiting for connection
+1593534348 A connection has been delegated to thread id #9, system load 80.0%
+1593534348 Thread #3, waiting for connection
+1593534348 Searching database for a path from node 156 to node 1347
+1593534348 Searching database for a path from node 650 to node 2821
+1593534348 Searching database for a path from node 2975 to node 507
+1593534348 No path in database calculating 3446->3203
+1593534348 path not possible from node 2636 to 727
+1593534348 No path in database calculating 5317->439
+1593534348 A connection has been delegated to thread id #5, system load 90.0%
+1593534348 Thread #5, waiting for connection
+1593534348 path not possible from node 3446 to 3203
+1593534348 Searching database for a path from node 1380 to node 5533
+1593534348 Thread #8, waiting for connection
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 path not possible from node 5317 to 439
+1593534348 No path in database calculating 1640->2530
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 Thread #4, waiting for connection
+1593534348 No path in database calculating 5381->3764
+1593534348 path not possible from node 1640 to 2530
+1593534348 Searching database for a path from node 4711 to node 120
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 No path in database calculating 2975->507
+1593534348 path not possible from node 5381 to 3764
+1593534348 Searching database for a path from node 5132 to node 4948
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 No path in database calculating 650->2821
+1593534348 Searching database for a path from node 6022 to node 4721
+1593534348 Thread #1, waiting for connection
+1593534348 path not possible from node 2975 to 507
+1593534348 Searching database for a path from node 4112 to node 77
+1593534348 Thread #9, waiting for connection
+1593534348 A connection has been delegated to thread id #9, system load 90.0%
+1593534348 path not possible from node 650 to 2821
+1593534348 No path in database calculating 6022->4721
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 Thread #0, waiting for connection
+1593534348 Searching database for a path from node 5290 to node 3087
+1593534348 path not possible from node 6022 to 4721
+1593534348 Searching database for a path from node 654 to node 2183
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 No path in database calculating 4711->120
+1593534348 Thread #8, waiting for connection
+1593534348 Searching database for a path from node 4993 to node 5035
+1593534348 No path in database calculating 6189->540
+1593534348 path not possible from node 4711 to 120
+1593534348 A connection has been delegated to thread id #4, system load 90.0%
+1593534348 No path in database calculating 5132->4948
+1593534348 path not possible from node 6189 to 540
+1593534348 No path in database calculating 4112->77
+1593534348 Thread #4, waiting for connection
+1593534348 Thread #7, waiting for connection
+1593534348 A connection has been delegated to thread id #7, system load 80.0%
+1593534348 path not possible from node 5132 to 4948
+1593534348 No path in database calculating 5290->3087
+1593534348 path calculated: 4112-> 7-> 177-> 559-> 759-> 77
+1593534348 Searching database for a path from node 735 to node 4873
+1593534348 A connection has been delegated to thread id #6, system load 90.0%
+1593534348 Thread #6, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 No path in database calculating 1380->5533
+1593534348 Searching database for a path from node 1945 to node 3601
+1593534348 Thread #1, waiting for connection
+1593534348 path not possible from node 5290 to 3087
+1593534348 Searching database for a path from node 1924 to node 3635
+1593534348 Searching database for a path from node 1022 to node 5412
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 90.0%
+1593534348 path calculated: 1380-> 3236-> 2001-> 1867-> 3615-> 4864-> 5533
+1593534348 No thread is avaiable! Waiting for one
+1593534348 A connection has been delegated to thread id #5, system load 90.0%
+1593534348 No path in database calculating 4993->5035
+1593534348 No path in database calculating 2904->3476
+1593534348 Thread #5, waiting for connection
+1593534348 Searching database for a path from node 3071 to node 4201
+1593534348 path not possible from node 4993 to 5035
+1593534348 Searching database for a path from node 4494 to node 2779
+1593534348 A connection has been delegated to thread id #8, system load 90.0%
+1593534348 Thread #8, waiting for connection
+1593534348 path calculated: 2904-> 531-> 574-> 180-> 2133-> 2451-> 4122-> 1721-> 3476
+1593534348 No path in database calculating 654->2183
+1593534348 A connection has been delegated to thread id #2, system load 90.0%
+1593534348 Searching database for a path from node 3777 to node 2497
+1593534348 Thread #2, waiting for connection
+1593534348 Searching database for a path from node 5637 to node 3970
+1593534348 path calculated: 654-> 2569-> 243-> 1564-> 238-> 2183
+1593534348 No path in database calculating 156->1347
+1593534348 A connection has been delegated to thread id #9, system load 90.0%
+1593534348 Thread #9, waiting for connection
+1593534348 No path in database calculating 1924->3635
+1593534348 No path in database calculating 735->4873
+1593534348 path calculated: 1924-> 2451-> 4122-> 1030-> 2693-> 2039-> 4438-> 3635
+1593534348 Searching database for a path from node 312 to node 2167
+1593534348 No path in database calculating 4494->2779
+1593534348 Thread #1, waiting for connection
+1593534348 A connection has been delegated to thread id #1, system load 90.0%
+1593534348 path not possible from node 156 to 1347
+1593534348 No thread is avaiable! Waiting for one
+1593534348 path not possible from node 4494 to 2779
+1593534348 A connection has been delegated to thread id #3, system load 90.0%
+1593534348 Thread #5, waiting for connection
+1593534348 A connection has been delegated to thread id #5, system load 80.0%
+1593534348 path not possible from node 735 to 4873
+1593534348 Searching database for a path from node 5626 to node 1285
+1593534348 A connection has been delegated to thread id #4, system load 80.0%
+1593534348 No path in database calculating 5637->3970
+1593534348 Thread #3, waiting for connection
+1593534348 No path in database calculating 3071->4201
+1593534348 Searching database for a path from node 3134 to node 2508
+1593534348 Thread #4, waiting for connection
+1593534348 path not possible from node 5637 to 3970
+1593534348 A connection has been delegated to thread id #2, system load 90.0%
+1593534348 Searching database for a path from node 5645 to node 4684
+1593534348 path not possible from node 3071 to 4201
+1593534348 Searching database for a path from node 3940 to node 3582
+1593534348 Thread #0, waiting for connection
+1593534348 A connection has been delegated to thread id #0, system load 80.0%
+1593534348 No path in database calculating 312->2167
+1593534348 Searching database for a path from node 1456 to node 3433
+1593534348 Thread #2, waiting for connection
+1593534348 No path in database calculating 1022->5412
+1593534348 path not possible from node 312 to 2167
+1593534348 Thread #9, waiting for connection
+1593534348 path calculated: 1022-> 1027-> 2471-> 2635-> 3310-> 4665-> 5412
+1593534348 Thread #6, waiting for connection
+1593534348 Searching database for a path from node 845 to node 4213
+1593534348 No path in database calculating 3134->2508
+1593534348 No path in database calculating 5645->4684
+1593534348 No path in database calculating 1456->3433
+1593534348 path not possible from node 3134 to 2508
+1593534348 Thread #3, waiting for connection
+1593534348 No path in database calculating 5626->1285
+1593534348 path calculated: 5645-> 5924-> 6071-> 6251-> 554-> 1547-> 3346-> 4684
+1593534348 Thread #5, waiting for connection
+1593534348 No path in database calculating 1945->3601
+1593534348 path not possible from node 1456 to 3433
+1593534348 No path in database calculating 3940->3582
+1593534348 path calculated: 5626-> 5909-> 1805-> 1813-> 146-> 3337-> 32-> 1459-> 1275-> 1285
+1593534348 Thread #1, waiting for connection
+1593534348 path not possible from node 3940 to 3582
+1593534348 Thread #4, waiting for connection
+1593534348 Thread #0, waiting for connection
+1593534348 path calculated: 1945-> 1144-> 31-> 2237-> 1402-> 3260-> 3601
+1593534348 Thread #7, waiting for connection
+1593534348 No path in database calculating 845->4213
+1593534348 No path in database calculating 3777->2497
+1593534348 path calculated: 845-> 176-> 700-> 2614-> 4213
+1593534348 Thread #2, waiting for connection
+1593534348 path not possible from node 3777 to 2497
+1593534348 Thread #8, waiting for connection
+1593534359 server acccept failed
+1593534359 Termination signal recieved, waiting for ongoing threads to complete
+1593534359 Thread #0 is exiting
+1593534359 Thread #4 is exiting
+1593534359 Thread #1 is exiting
+1593534359 Thread #2 is exiting
+1593534359 Thread #5 is exiting
+1593534359 Thread #3 is exiting
+1593534359 Thread #7 is exiting
+1593534359 Thread #8 is exiting
+1593534359 Thread #6 is exiting
+1593534359 Thread #9 is exiting

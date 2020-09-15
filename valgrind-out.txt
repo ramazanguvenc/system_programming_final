@@ -1,0 +1,228 @@
+==9933== Memcheck, a memory error detector
+==9933== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==9933== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==9933== Command: ./server -i input.txt -o output.log -s 2 -x 10 -r 1 -p 8080
+==9933== Parent PID: 158
+==9933== 
+--9933-- 
+--9933-- Valgrind options:
+--9933--    --leak-check=full
+--9933--    --show-leak-kinds=all
+--9933--    --track-origins=yes
+--9933--    --verbose
+--9933--    --log-file=valgrind-out.txt
+--9933-- Contents of /proc/version:
+--9933--   Linux version 4.4.0-18362-Microsoft (Microsoft@Microsoft.com) (gcc version 5.4.0 (GCC) ) #836-Microsoft Mon May 05 16:04:00 PST 2020
+--9933-- 
+--9933-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3-avx-avx2-bmi
+--9933-- Page sizes: currently 4096, max supported 4096
+--9933-- Valgrind library directory: /usr/lib/valgrind
+--9933-- Reading syms from /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server
+--9933-- Reading syms from /lib/x86_64-linux-gnu/ld-2.27.so
+--9933--   Considering /lib/x86_64-linux-gnu/ld-2.27.so ..
+--9933--   .. CRC mismatch (computed 1b7c895e wanted 2943108a)
+--9933--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/ld-2.27.so ..
+--9933--   .. CRC is valid
+--9933-- Reading syms from /usr/lib/valgrind/memcheck-amd64-linux
+--9933--   Considering /usr/lib/valgrind/memcheck-amd64-linux ..
+--9933--   .. CRC mismatch (computed c25f395c wanted 0a9602a8)
+--9933--    object doesn't have a symbol table
+--9933--    object doesn't have a dynamic symbol table
+--9933-- Scheduler: using generic scheduler lock implementation.
+--9933-- Reading suppressions file: /usr/lib/valgrind/default.supp
+==9933== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-9933-by-dante-on-???
+==9933== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-9933-by-dante-on-???
+==9933== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-9933-by-dante-on-???
+==9933== 
+==9933== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==9933== don't want to do, unless you know exactly what you're doing,
+==9933== or are doing some strange experiment):
+==9933==   /usr/lib/valgrind/../../bin/vgdb --pid=9933 ...command...
+==9933== 
+==9933== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==9933==   /path/to/gdb ./server
+==9933== and then give GDB the following command
+==9933==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=9933
+==9933== --pid is optional if only one valgrind process is running
+==9933== 
+==9933== error calling PR_SET_PTRACER, vgdb might block
+--9933-- REDIR: 0x401f2f0 (ld-linux-x86-64.so.2:strlen) redirected to 0x58060901 (???)
+--9933-- REDIR: 0x401f0d0 (ld-linux-x86-64.so.2:index) redirected to 0x5806091b (???)
+--9933-- Reading syms from /usr/lib/valgrind/vgpreload_core-amd64-linux.so
+--9933--   Considering /usr/lib/valgrind/vgpreload_core-amd64-linux.so ..
+--9933--   .. CRC mismatch (computed 4b63d83e wanted 670599e6)
+--9933--    object doesn't have a symbol table
+--9933-- Reading syms from /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so
+--9933--   Considering /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so ..
+--9933--   .. CRC mismatch (computed a4b37bee wanted 8ad4dc94)
+--9933--    object doesn't have a symbol table
+==9933== WARNING: new redirection conflicts with existing -- ignoring it
+--9933--     old: 0x0401f2f0 (strlen              ) R-> (0000.0) 0x58060901 ???
+--9933--     new: 0x0401f2f0 (strlen              ) R-> (2007.0) 0x04c32db0 strlen
+--9933-- REDIR: 0x401d360 (ld-linux-x86-64.so.2:strcmp) redirected to 0x4c33ee0 (strcmp)
+--9933-- REDIR: 0x401f830 (ld-linux-x86-64.so.2:mempcpy) redirected to 0x4c374f0 (mempcpy)
+--9933-- Reading syms from /lib/x86_64-linux-gnu/libm-2.27.so
+--9933--   Considering /lib/x86_64-linux-gnu/libm-2.27.so ..
+--9933--   .. CRC mismatch (computed 7feae033 wanted b29b2508)
+--9933--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libm-2.27.so ..
+--9933--   .. CRC is valid
+--9933-- Reading syms from /lib/x86_64-linux-gnu/libpthread-2.27.so
+--9933--   Considering /usr/lib/debug/.build-id/28/c6aade70b2d40d1f0f3d0a1a0cad1ab816448f.debug ..
+--9933--   .. build-id is valid
+--9933-- Reading syms from /lib/x86_64-linux-gnu/libc-2.27.so
+--9933--   Considering /lib/x86_64-linux-gnu/libc-2.27.so ..
+--9933--   .. CRC mismatch (computed b1c74187 wanted 042cc048)
+--9933--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.27.so ..
+--9933--   .. CRC is valid
+--9933-- REDIR: 0x5497c70 (libc.so.6:memmove) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496d40 (libc.so.6:strncpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497f50 (libc.so.6:strcasecmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496790 (libc.so.6:strcat) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496d70 (libc.so.6:rindex) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54997c0 (libc.so.6:rawmemchr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497de0 (libc.so.6:mempcpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497c10 (libc.so.6:bcmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496d00 (libc.so.6:strncmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496800 (libc.so.6:strcmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497d40 (libc.so.6:memset) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54b50f0 (libc.so.6:wcschr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496ca0 (libc.so.6:strnlen) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496870 (libc.so.6:strcspn) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497fa0 (libc.so.6:strncasecmp) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496840 (libc.so.6:strcpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54980e0 (libc.so.6:memcpy@@GLIBC_2.14) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496da0 (libc.so.6:strpbrk) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54967c0 (libc.so.6:index) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5496c70 (libc.so.6:strlen) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54a16c0 (libc.so.6:memrchr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497ff0 (libc.so.6:strcasecmp_l) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497be0 (libc.so.6:memchr) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54b5eb0 (libc.so.6:wcslen) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497050 (libc.so.6:strspn) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497f20 (libc.so.6:stpncpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5497ef0 (libc.so.6:stpcpy) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x54997f0 (libc.so.6:strchrnul) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x5498040 (libc.so.6:strncasecmp_l) redirected to 0x4a2a6e0 (_vgnU_ifunc_wrapper)
+--9933-- REDIR: 0x55873c0 (libc.so.6:__strrchr_avx2) redirected to 0x4c32730 (rindex)
+--9933-- REDIR: 0x5490950 (libc.so.6:free) redirected to 0x4c30cd0 (free)
+==9933== 
+==9933== HEAP SUMMARY:
+==9933==     in use at exit: 0 bytes in 0 blocks
+==9933==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==9933== 
+==9933== All heap blocks were freed -- no leaks are possible
+==9933== 
+==9933== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==9933== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==9935== Warning: invalid file descriptor 1024 in syscall close()
+==9935==    at 0x51EB421: close (close.c:27)
+==9935==    by 0x10C410: deamon (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x10A0EE: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-9935-by-dante-on-???
+==9935== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-9935-by-dante-on-???
+==9935== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-9935-by-dante-on-???
+==9935== 
+==9935== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==9935== don't want to do, unless you know exactly what you're doing,
+==9935== or are doing some strange experiment):
+==9935==   /usr/lib/valgrind/../../bin/vgdb --pid=9935 ...command...
+==9935== 
+==9935== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==9935==   /path/to/gdb ./server
+==9935== and then give GDB the following command
+==9935==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=9935
+==9935== --pid is optional if only one valgrind process is running
+==9935== 
+==9935== error calling PR_SET_PTRACER, vgdb might block
+--9935-- REDIR: 0x5587590 (libc.so.6:__strlen_avx2) redirected to 0x4c32cf0 (strlen)
+--9935-- REDIR: 0x5586fa0 (libc.so.6:__strchr_avx2) redirected to 0x4c32950 (index)
+--9935-- REDIR: 0x5574950 (libc.so.6:__strcpy_ssse3) redirected to 0x4c32dd0 (strcpy)
+--9934-- REDIR: 0x5490950 (libc.so.6:free) redirected to 0x4c30cd0 (free)
+--9935-- REDIR: 0x5490070 (libc.so.6:malloc) redirected to 0x4c2faa0 (malloc)
+==9934== 
+==9934== HEAP SUMMARY:
+==9934==     in use at exit: 0 bytes in 0 blocks
+==9934==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==9934== 
+==9934== All heap blocks were freed -- no leaks are possible
+==9934== 
+==9934== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==9934== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+--9935-- REDIR: 0x55871d0 (libc.so.6:__strchrnul_avx2) redirected to 0x4c37020 (strchrnul)
+--9935-- REDIR: 0x55836f0 (libc.so.6:__rawmemchr_avx2) redirected to 0x4c37050 (rawmemchr)
+--9935-- REDIR: 0x5491c30 (libc.so.6:realloc) redirected to 0x4c31cb0 (realloc)
+--9935-- REDIR: 0x5587ab0 (libc.so.6:__mempcpy_avx_unaligned_erms) redirected to 0x4c37130 (mempcpy)
+--9935-- REDIR: 0x5493030 (libc.so.6:calloc) redirected to 0x4c31a70 (calloc)
+==9935== Thread 3:
+==9935== Conditional jump or move depends on uninitialised value(s)
+==9935==    at 0x10B67E: worker_thread (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x51E16DA: start_thread (pthread_create.c:463)
+==9935==    by 0x551A88E: clone (clone.S:95)
+==9935==  Uninitialised value was created by a heap allocation
+==9935==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9935==    by 0x10A63C: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== 
+--9935-- REDIR: 0x5587ad0 (libc.so.6:__memcpy_avx_unaligned_erms) redirected to 0x4c366e0 (memmove)
+--9935-- REDIR: 0x5490950 (libc.so.6:free) redirected to 0x4c30cd0 (free)
+--9935-- REDIR: 0x54aa9e0 (libc.so.6:__strcat_ssse3) redirected to 0x4c32990 (strcat)
+==9935== Syscall param write(buf) points to uninitialised byte(s)
+==9935==    at 0x51EB2B7: write (write.c:27)
+==9935==    by 0x10BAE6: worker_thread (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x51E16DA: start_thread (pthread_create.c:463)
+==9935==    by 0x551A88E: clone (clone.S:95)
+==9935==  Address 0x6beae39 is on thread 3's stack
+==9935==  in frame #1, created by worker_thread (???:)
+==9935==  Uninitialised value was created by a stack allocation
+==9935==    at 0x10B42B: worker_thread (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== 
+--9935-- REDIR: 0x5562d60 (libc.so.6:__strcmp_ssse3) redirected to 0x4c33da0 (strcmp)
+==9935== Thread 1:
+==9935== Conditional jump or move depends on uninitialised value(s)
+==9935==    at 0x10C493: free_cache (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x10B337: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==  Uninitialised value was created by a heap allocation
+==9935==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9935==    by 0x10A63C: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== 
+==9935== 
+==9935== HEAP SUMMARY:
+==9935==     in use at exit: 0 bytes in 0 blocks
+==9935==   total heap usage: 19,322 allocs, 19,322 frees, 40,160,484 bytes allocated
+==9935== 
+==9935== All heap blocks were freed -- no leaks are possible
+==9935== 
+==9935== ERROR SUMMARY: 6699 errors from 3 contexts (suppressed: 0 from 0)
+==9935== 
+==9935== 261 errors in context 1 of 3:
+==9935== Thread 3:
+==9935== Conditional jump or move depends on uninitialised value(s)
+==9935==    at 0x10B67E: worker_thread (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x51E16DA: start_thread (pthread_create.c:463)
+==9935==    by 0x551A88E: clone (clone.S:95)
+==9935==  Uninitialised value was created by a heap allocation
+==9935==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9935==    by 0x10A63C: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== 
+==9935== 
+==9935== 270 errors in context 2 of 3:
+==9935== Syscall param write(buf) points to uninitialised byte(s)
+==9935==    at 0x51EB2B7: write (write.c:27)
+==9935==    by 0x10BAE6: worker_thread (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x51E16DA: start_thread (pthread_create.c:463)
+==9935==    by 0x551A88E: clone (clone.S:95)
+==9935==  Address 0x6beae39 is on thread 3's stack
+==9935==  in frame #1, created by worker_thread (???:)
+==9935==  Uninitialised value was created by a stack allocation
+==9935==    at 0x10B42B: worker_thread (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== 
+==9935== 
+==9935== 6168 errors in context 3 of 3:
+==9935== Thread 1:
+==9935== Conditional jump or move depends on uninitialised value(s)
+==9935==    at 0x10C493: free_cache (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==    by 0x10B337: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935==  Uninitialised value was created by a heap allocation
+==9935==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9935==    by 0x10A63C: main (in /mnt/c/Users/Dante/Desktop/Desktop/Homeworks/system programming/final/server)
+==9935== 
+==9935== ERROR SUMMARY: 6699 errors from 3 contexts (suppressed: 0 from 0)
